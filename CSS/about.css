@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: rgb(53, 51, 51);
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.texto h1{
+    text-align: center;
+    padding: 1.5rem;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.texto h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+.texto p {
+    text-align: center;
+}
+
+.btn {
+position: fixed;
+right: 3rem;
+bottom: 3rem;
+width: 4.5rem;
+height: 3rem;
+background: #000;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+border: none !important;
+cursor: pointer;
+}
+
+.btn:hover {
+background: #fff;
+color: #000;
+}
